@@ -1,0 +1,239 @@
+
+
+  /* section 1 */
+  .introduction{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 5vw;
+  }
+
+  /* navbar */
+  .navbar {
+    background-color: transparent;
+  }
+  
+  .introduction .navbar .container-fluid .navbar-brand{
+    font-size: 3vw;
+    font-weight: bold;
+    color: orange;
+  }
+  .introduction .navbar-nav .nav-item .text-nav{
+    padding-top: 1.2vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: black;
+  }
+  .introduction .navbar-nav .nav-item .text-nav:hover{
+    color: orange;
+  }
+
+  /* introduction */
+  .logo-intro{
+    width: 25vw;
+    height: 30vw;
+  }
+  .jakedoge{
+    background-color: white;
+    border-radius: 10rem;
+  }
+  .jake{
+    font-size: 5vw;
+    font-weight: bold;
+    color: orange;
+  }
+  .doge{
+    font-size: 5vw;
+    font-weight: bold;
+  }
+
+  /* information */
+  .information{
+    padding-top: 3vw;
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 5vw;
+  }
+  .button-brand{
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    padding-left: 2.3vw;
+    padding-right: 2.3vw;
+    border: none;
+    background: linear-gradient(to bottom, rgb(255, 111, 0), rgb(255, 192, 97));
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: white;
+    border-radius: 5vw;
+    margin: 0.5vw;
+  }
+  .information-content{
+    padding-top: 3vw;
+    justify-content: center;
+  }
+  .information-content .title{
+    font-size: 3vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  .main-content{
+    font-size: 2vw;
+  }
+  .button-brand-bottom{
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 2.3vw;
+    padding-right: 2.3vw;
+    border: none;
+    background: linear-gradient(to bottom, rgb(255, 111, 0), rgb(255, 192, 97));
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: rgb(0, 0, 0);
+    border-radius: 5vw;
+    margin: 0.5vw;
+  }
+
+  /* contact-tablet */
+  .contact-tablet{
+    padding-top: 3vw;
+    background-image: url(../images/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 5vw;
+  }
+  .title-contact{
+    font-size: 3vw;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 1vw;
+  }
+  .group-logo{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 10vw;
+    background-color: rgb(255, 255, 255);
+  }
+  .logo-contact{
+    margin-right: 5vw;
+    width: 10vw;
+    height: 3vw;
+  }
+  .tablet-img{
+    width: 50vw;
+    height: 35vw;
+  }
+
+  /* tokeninfo */
+  .token-info{
+    padding-top: 3vw;
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 5vw;
+  }
+  .title-token{
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+
+    padding-bottom: 1vw;
+  }
+  .table-rounded {
+    border-radius: 1vw;
+    border-bottom: 0.3vw solid black;
+  }
+  .table-rounded th{
+    border: 0.3vw solid white;
+  }
+  .title-token-small{
+    font-weight: bold;
+    color: orangered;
+    font-size: 2vw;
+  }
+  .content-token{
+    color: white;
+    font-size: 1.5vw;
+  }
+  .button-tax-bottom{
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    border: 0.3vw solid black;
+    background: linear-gradient(to right, rgb(255, 111, 0), rgb(255, 192, 97));
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    border-radius: 5vw;
+    margin: 0.5vw;
+  }
+  .button-tax-bottom:hover{
+    border: 0.3vw solid orangered;
+    background: linear-gradient(to left, rgb(255, 111, 0), rgb(255, 192, 97));
+  }
+  .mobile-image{
+    margin-top: 3vw;
+    width: 20vw;
+    height: 35vw;
+  }
+  .logo-token{
+    width: 2vw;
+    height: 3vw;
+    margin-bottom: 1vw;
+  }
+  .d-app{
+    padding-top: 2vw;
+  }
+  .d-app .container{
+    padding: 1vw;
+    margin-bottom: 1vw;
+    background-color: white;
+    border-radius: 10vw;
+  }
+  .button-using{
+    border: none;
+    background: linear-gradient(to left, white, white);
+  }
+  .button-using:hover{
+    background: linear-gradient(to left, rgb(0, 145, 255), rgb(255, 139, 159));
+    
+  }
+  .d-app .container .button-using i{
+    background: linear-gradient(to left, rgb(0, 145, 255), rgb(255, 139, 159));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .d-app .container .button-using i:hover{
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .content-using{
+    margin-left: 0.5vw;
+    margin-bottom: 0;
+    color: orangered;
+    font-weight: bold;
+    font-size: 1.2vw;
+  }
+
+  @media screen and (min-width:414px) and (max-width:767px){
+    .content-using{
+      color: orangered;
+      font-weight: bold;
+      font-size: 2vw;
+    }
+  }
+  @media screen and (max-width:415px){
+    .content-using{
+      margin-top: 2vw;
+      margin-left: 2vw;
+      color: orangered;
+      font-weight: bold;
+      font-size: 2.5vw;
+    }
+  }
