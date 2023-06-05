@@ -4,6 +4,12 @@
     to { top:2%; left: 1%; }
 }
 
+@keyframes counter-move {
+  from { top: 0; right: 0; }
+  to { top:2%; right: 1%; }
+}
+
+
   /* section 1 */
   .introduction{
     background-image: url(../images/background.jpg);
@@ -37,6 +43,8 @@
   .logo-intro{
     width: 25vw;
     height: 30vw;
+    position: relative;
+    animation: move 2s linear infinite alternate;
   }
   .introduction-container .row .jakedoge{
     align-items: center;
@@ -120,6 +128,20 @@
   }
   
   /* contact-tablet */
+  .logo-tablet{
+    margin-top: 3vw;
+    width: 25vw;
+    height: 30vw;
+    position: relative;
+    animation: move 2s linear infinite alternate;
+  }
+  .logo-tablet-2{
+    margin-top: 3vw;
+    width: 25vw;
+    height: 30vw;
+    position: relative;
+    animation: counter-move 2s linear infinite alternate;
+  }
   .contact-tablet{
     padding-top: 3vw;
     background-image: url(../images/background3.jpg);
@@ -146,6 +168,8 @@
     height: 3vw;
   }
   .tablet-img{
+    position: relative;
+    animation: move 2s linear infinite alternate;
     width: 50vw;
     height: 35vw;
   }
@@ -201,8 +225,24 @@
   }
   .mobile-image{
     margin-top: 3vw;
-    width: 20vw;
-    height: 35vw;
+    width: 10vw;
+    height: 15vw;
+    position: relative;
+    animation: move 2s linear infinite alternate;
+  }
+  .mobile-image-2{
+    margin-top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    position: relative;
+    animation: counter-move 2s linear infinite alternate;
+  }
+  .mobile-image-3{
+    margin-top: 10vw;
+    width: 15vw;
+    height: 20vw;
+    position: relative;
+    animation: counter-move 2s linear infinite alternate;
   }
   .logo-token{
     width: 2vw;
@@ -226,6 +266,10 @@
     background: linear-gradient(to left, rgb(0, 145, 255), rgb(255, 139, 159));
     
   }
+  .token-info .group-d-app .d-app .col-md-6 .container{
+    align-items: center;
+    width: 30vw;
+  }
   .d-app .container .button-using i{
     background: linear-gradient(to left, rgb(0, 145, 255), rgb(255, 139, 159));
   -webkit-background-clip: text;
@@ -241,7 +285,7 @@
     margin-bottom: 0;
     color: orangered;
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 2vw;
   }
   .text-tax{
     margin-top: 3vw;
@@ -258,7 +302,6 @@
   }
   @media screen and (max-width:415px){
     .content-using{
-      margin-top: 2vw;
       margin-left: 2vw;
       color: orangered;
       font-weight: bold;
