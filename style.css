@@ -47,6 +47,18 @@
     font-size: 5vw;
     font-weight: bold;
   }
+  .container-fluid .button-header{
+    background-color: rgb(0, 145, 255);
+    margin-left: 1vw;
+    font-size: 1.5vw;
+  }
+  .container-fluid .button-header-white{
+    margin-right: 3vw;
+    background-color: white;
+    color: black;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+  }
 
   /* information */
   .information{
@@ -220,7 +232,12 @@
     font-weight: bold;
     font-size: 1.2vw;
   }
-
+  .text-tax{
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+  }
   @media screen and (min-width:414px) and (max-width:767px){
     .content-using{
       color: orangered;
@@ -236,4 +253,36 @@
       font-weight: bold;
       font-size: 2.5vw;
     }
+  }
+
+
+  /* roadmap */
+  .roadmap{
+    padding-top: 3vw;
+    background-image: url(../images/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 5vw;
+  }
+  .title-token{
+    font-size: 2.5vw;
+    color: #000;
+  }
+  .title-token-small-roadmap{
+    font-size: 1.8vw;
+    font-weight: bold;
+  }
+  .content-roadmap{
+    font-size: 1.5vw;
+  }
+  .roadmap .container .button-roadmap{
+    background: orangered;
+    font-size: 1.5vw;
+  }
+.table-custom{
+  margin-top: 3vw;
+    padding: 1vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2vw;
   }
