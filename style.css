@@ -1,4 +1,8 @@
 
+@keyframes move {
+    from { top: 0; left: 0; }
+    to { top:2%; left: 1%; }
+}
 
   /* section 1 */
   .introduction{
@@ -34,7 +38,10 @@
     width: 25vw;
     height: 30vw;
   }
-  .jakedoge{
+  .introduction-container .row .jakedoge{
+    align-items: center;
+    width: 35vw;
+    margin-bottom: 2vw;
     background-color: white;
     border-radius: 10rem;
   }
@@ -46,6 +53,9 @@
   .doge{
     font-size: 5vw;
     font-weight: bold;
+  }
+  .container-fluid .group-button-header{
+    width: 20vw;
   }
   .container-fluid .button-header{
     background-color: rgb(0, 145, 255);
@@ -59,6 +69,7 @@
     margin-left: 1vw;
     font-size: 1.5vw;
   }
+
 
   /* information */
   .information{
@@ -107,7 +118,7 @@
     border-radius: 5vw;
     margin: 0.5vw;
   }
-
+  
   /* contact-tablet */
   .contact-tablet{
     padding-top: 3vw;
