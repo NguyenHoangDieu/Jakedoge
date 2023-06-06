@@ -249,6 +249,11 @@
     height: 3vw;
     margin-bottom: 1vw;
   }
+  .d-app .col-md-6 h5{
+    font-size: 2vw;
+    font-weight: bold;
+    color: orangered;
+  }
   .d-app{
     padding-top: 2vw;
   }
